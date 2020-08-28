@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-attachment: fixscroll;
+  background-image: url("keai_de_chongwugou-008.jpg");
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: right top;
+}
+.top-menu {
+  background: rgba(247, 232, 212, 0.5);
+  box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+.top-menu {
+  overflow: hidden;
+}
+.navbar-logo {
+  display: inline-block;
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+  float: right;
+}
+.menu-main li {
+  display: inline-block;
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 80px;
+  padding-left: 40px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Snell Roundhand", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: #56555e;
+  transition: 0.3s linear;
+}
+.image-logo {
+  height: 80px;
+  width: 90px;
+  border-radius: 15px;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.text-main {
+  font-family: cursive;
+  color: rgb(#000);
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+.second-main {
+  font-size: 26px;
+  color: #000;
+  position: relative;
+  padding-left: 60px;
+  line-height: 1;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.second-menu {
+  font-size: 22px;
+  padding-left: 78px;
+  line-height: 2;
+}
+.ornament {
+  background-image: url(след-вектора-фон-150602809.png);
+  width: 100%;
+  height: 167px;
+  position: absolute;
+  top: 101%;
+  float: right;
+}
+.about {
+  margin-top: 400px;
+  min-height: 900px;
+  font-size: 26px;
+  color: #000;
+  background-color: #eed7b6fb;
+  }
+  .about h1 {
+margin: 0;
+  }
+.container-about {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-menu {
+  line-height: 2;
+  padding-left: 100px;
+  float: left;
+}
+.image-about {
+  border-radius: 108px;
+}
