@@ -5,11 +5,11 @@
 }
 body {
   margin: 0;
-  background-attachment: fixscroll;
-  background-image: url("keai_de_chongwugou-008.jpg");
-  background-repeat: no-repeat;
-  background-size: 78%;
-  background-position: right top;
+}
+.image-main {
+  background-size: cover;
+  width: auto;
+  height: 1000px;
 }
 .top-menu {
   background: rgba(247, 232, 212, 0.5);
@@ -50,49 +50,58 @@ body {
   border-radius: 15px;
 }
 .container {
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.frame-one {
+  float: left;
+  width: 33%;
+}
+.frame-two {
+  float: left;
+  width: 67%;
 }
 .text-main {
   font-family: cursive;
   color: rgb(#000);
   font-size: 40px;
-  padding-top: 100px;
-  padding-left: 60px;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 .second-main {
-  font-size: 26px;
+  font-size: 22px;
   color: #000;
   position: relative;
-  padding-left: 60px;
+  padding-left: 20px;
   line-height: 1;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
 .second-menu {
   font-size: 22px;
-  padding-left: 78px;
+  padding-left: 91px;
   line-height: 2;
+  width: 100%;
+  display: inline-block;
 }
 .ornament {
   background-image: url(след-вектора-фон-150602809.png);
   width: 100%;
   height: 167px;
-  position: absolute;
-  top: 101%;
+  top: 106%;
   float: right;
 }
 .about {
-  margin-top: 400px;
+  margin-top: 220px;
   min-height: 900px;
   font-size: 26px;
   color: #000;
   background-color: #eed7b6fb;
-  }
-  .about h1 {
-margin: 0;
-  }
+}
+.about h1 {
+  margin: 0;
+}
 .container-about {
   width: 100%;
   padding-right: 15px;
