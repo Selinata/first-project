@@ -9,11 +9,10 @@ body {
 .image-main {
   background-size: cover;
   width: auto;
-  height: 1000px;
+  height: 900px;
 }
 .top-menu {
   background: rgba(247, 232, 212, 0.5);
-  box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
   padding: 10px;
 }
 .top-menu {
