@@ -14,9 +14,9 @@ body {
 }
 .top-menu {
   background: rgba(247, 232, 212, 0.5);
-  top: 0;
-  right: 0;
-  left: 0;
+  top: 0; /* Подумай */
+  right: 0; /* Подумай */
+  left: 0; /* Подумай */
   overflow: hidden;
 }
 .navbar-logo {
@@ -35,7 +35,7 @@ body {
   text-align: left;
   float: left;
   width: 50%;
-  overflow: hidden;
+  overflow: hidden; /* Подумай */
 }
 .menu-main li {
   display: inline-block;
@@ -43,7 +43,7 @@ body {
 .menu-main a {
   text-decoration: none;
   display: block;
-  position: relative;
+  position: relative; /* Подумай */
   line-height: 80px;
   padding-left: 40px;
   font-size: 22px;
@@ -54,13 +54,12 @@ body {
 }
 .number {
   margin-top: 20px;
- margin-right: 60px;
-
+  margin-right: 60px;
   float: right;
 }
 .container {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Подумай */
+  height: auto; /* Подумай */
   overflow: hidden;
 }
 .frame-one {
@@ -73,7 +72,7 @@ body {
 }
 .text-main {
   font-family: cursive;
-  color: rgb(#000);
+  color: rgb(#000); /* Подумай */
   font-size: 40px;
   padding-top: 60px;
   padding-left: 10px;
@@ -104,7 +103,7 @@ body {
   min-height: 800px;
   font-size: 26px;
   color: #000;
-  background-color: #eed7b6fb;
+  background-color: #eed7b6fb; /* Подумай */
 }
 .about h1 {
   margin: 0;
